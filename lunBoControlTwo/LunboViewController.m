@@ -107,15 +107,15 @@
     });
   
 }
--(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+-(NSUInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
     return 1;
 
 }
 
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+-(NSUInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    //NSLog(@"%ld",self.imageArray.count);
+   
     return self.imageArray.count;
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath

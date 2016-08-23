@@ -1,26 +1,31 @@
+#
+#  Be sure to run `pod spec lint lunBoControlTwo.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
+#
+#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+#
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
- #
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
   #  These will help people to find your library, and whilst it
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "lunboControlTwo"
+  s.name         = "lunBoControlTwo"
   s.version      = "1.0.0"
-  s.summary      = "A lunbo banner control for advertisement."
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary      = "a circle display"
   s.description  = <<-DESC
-The lunbog is a comt can be used in any iOS app. It also plays a little victory fanfare 
-DESC
+                       Testing Private Podspec.
+ 
+                       * Markdown format.
+                       * Don't worry about the indent, we strip it!
+                       DESC
 
-  s.homepage     = "http://raywenderlich.com"
+  s.homepage     = "https://github.com/DevaLee/lunboPodWSpec"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -35,7 +40,7 @@ DESC
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
   #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
@@ -45,19 +50,19 @@ DESC
   #  profile URL.
   #
 
-  s.author             = { "yuchen.li" => "yuchen.li@mxrcorp.com" }
-  # Or just: s.author    = "yuchen.li"
-  # s.authors            = { "yuchen.li" => "yuchen.li@mxrcorp.com" }
-  # s.social_media_url   = "http://twitter.com/yuchen.li"
+  s.author             = { "DevaLee" => "email@address.com" }
+  # Or just: s.author    = "DevaLee"
+  # s.authors            = { "DevaLee" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/DevaLee"
 
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Platform Specifics ―――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
+  #  the deployment target. You can optionally include the target afttform.
   #
 
-   s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  s.platform     = :ios
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -66,15 +71,16 @@ DESC
   # s.tvos.deployment_target = "9.0"
 
 
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Source Location ――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
- s.source       = { :git => "https://github.com/DevaLee/lunboPodWSpec.git",:tag=>"1.0.0" }
+  s.source       = { :git => "https://github.com/DevaLee/lunboPodWSpec.git", :tag => "1.0.0" }
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+
+  # ――― Source Code ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
@@ -83,12 +89,12 @@ DESC
   #
 
   s.source_files  = "lunBoControlTwo", "lunBoControlTwo/**/*.{h,m}"
-
+ # s.exclude_files = "Classes/Exclude"
 
    s.public_header_files = "lunBoControlTwo/**/*.h"
 
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Resources ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
@@ -97,33 +103,33 @@ DESC
   #
 
   # s.resource  = "icon.png"
-  s.resources = "lunBoControlTwo/MyImage.bundle"
+   s.resources = "lunBoControlTwo/MyImage.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
 
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.frameworks = 'UIKit'
- 
+  # s.dependency "JSONKit", "~> 1.4"
+
 end
