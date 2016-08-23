@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA138D681D6BD856001DB18F /* lunBoControlTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = AA138D671D6BD856001DB18F /* lunBoControlTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA138D6F1D6BD856001DB18F /* lunBoControlTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA138D641D6BD856001DB18F /* lunBoControlTwo.framework */; };
+		AA138D741D6BD856001DB18F /* lunBoControlTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA138D731D6BD856001DB18F /* lunBoControlTwoTests.m */; };
+		AA138D861D6BD884001DB18F /* lunboViewControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AA138D7E1D6BD884001DB18F /* lunboViewControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA138D871D6BD884001DB18F /* LunboViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA138D7F1D6BD884001DB18F /* LunboViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA138D881D6BD884001DB18F /* LunboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA138D801D6BD884001DB18F /* LunboViewController.m */; };
+		AA138D891D6BD884001DB18F /* LYCFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA138D811D6BD884001DB18F /* LYCFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA138D8A1D6BD884001DB18F /* LYCFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA138D821D6BD884001DB18F /* LYCFlowLayout.m */; };
+		AA138D8B1D6BD884001DB18F /* LYCWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA138D831D6BD884001DB18F /* LYCWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA138D8C1D6BD884001DB18F /* LYCWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA138D841D6BD884001DB18F /* LYCWaveView.m */; };
+		AA138D8D1D6BD884001DB18F /* MyImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA138D851D6BD884001DB18F /* MyImage.bundle */; };
+		AA138DA31D6BFCE2001DB18F /* fj1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138D9B1D6BFCE2001DB18F /* fj1.jpg */; };
+		AA138DA41D6BFCE2001DB18F /* fj2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138D9C1D6BFCE2001DB18F /* fj2.jpg */; };
+		AA138DA51D6BFCE2001DB18F /* fj3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138D9D1D6BFCE2001DB18F /* fj3.jpg */; };
+		AA138DA61D6BFCE2001DB18F /* fj4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138D9E1D6BFCE2001DB18F /* fj4.jpg */; };
+		AA138DA71D6BFCE2001DB18F /* fj5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138D9F1D6BFCE2001DB18F /* fj5.jpg */; };
+		AA138DA81D6BFCE2001DB18F /* fj6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138DA01D6BFCE2001DB18F /* fj6.jpg */; };
+		AA138DA91D6BFCE2001DB18F /* fj7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138DA11D6BFCE2001DB18F /* fj7.jpg */; };
+		AA138DAA1D6BFCE2001DB18F /* fj8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA138DA21D6BFCE2001DB18F /* fj8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA138D701D6BD856001DB18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA138D5B1D6BD856001DB18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA138D631D6BD856001DB18F;
+			remoteInfo = lunBoControlTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA138D641D6BD856001DB18F /* lunBoControlTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lunBoControlTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA138D671D6BD856001DB18F /* lunBoControlTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lunBoControlTwo.h; sourceTree = "<group>"; };
+		AA138D691D6BD856001DB18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA138D6E1D6BD856001DB18F /* lunBoControlTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lunBoControlTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA138D731D6BD856001DB18F /* lunBoControlTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lunBoControlTwoTests.m; sourceTree = "<group>"; };
+		AA138D751D6BD856001DB18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA138D7E1D6BD884001DB18F /* lunboViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunboViewControl.h; sourceTree = "<group>"; };
+		AA138D7F1D6BD884001DB18F /* LunboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunboViewController.h; sourceTree = "<group>"; };
+		AA138D801D6BD884001DB18F /* LunboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunboViewController.m; sourceTree = "<group>"; };
+		AA138D811D6BD884001DB18F /* LYCFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCFlowLayout.h; sourceTree = "<group>"; };
+		AA138D821D6BD884001DB18F /* LYCFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCFlowLayout.m; sourceTree = "<group>"; };
+		AA138D831D6BD884001DB18F /* LYCWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCWaveView.h; sourceTree = "<group>"; };
+		AA138D841D6BD884001DB18F /* LYCWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCWaveView.m; sourceTree = "<group>"; };
+		AA138D851D6BD884001DB18F /* MyImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MyImage.bundle; sourceTree = "<group>"; };
+		AA138D9B1D6BFCE2001DB18F /* fj1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj1.jpg; sourceTree = "<group>"; };
+		AA138D9C1D6BFCE2001DB18F /* fj2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj2.jpg; sourceTree = "<group>"; };
+		AA138D9D1D6BFCE2001DB18F /* fj3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj3.jpg; sourceTree = "<group>"; };
+		AA138D9E1D6BFCE2001DB18F /* fj4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj4.jpg; sourceTree = "<group>"; };
+		AA138D9F1D6BFCE2001DB18F /* fj5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj5.jpg; sourceTree = "<group>"; };
+		AA138DA01D6BFCE2001DB18F /* fj6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj6.jpg; sourceTree = "<group>"; };
+		AA138DA11D6BFCE2001DB18F /* fj7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj7.jpg; sourceTree = "<group>"; };
+		AA138DA21D6BFCE2001DB18F /* fj8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA138D601D6BD856001DB18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA138D6B1D6BD856001DB18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA138D6F1D6BD856001DB18F /* lunBoControlTwo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA138D5A1D6BD856001DB18F = {
+			isa = PBXGroup;
+			children = (
+				AA138D661D6BD856001DB18F /* lunBoControlTwo */,
+				AA138D721D6BD856001DB18F /* lunBoControlTwoTests */,
+				AA138D651D6BD856001DB18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA138D651D6BD856001DB18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA138D641D6BD856001DB18F /* lunBoControlTwo.framework */,
+				AA138D6E1D6BD856001DB18F /* lunBoControlTwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA138D661D6BD856001DB18F /* lunBoControlTwo */ = {
+			isa = PBXGroup;
+			children = (
+				AA138D9B1D6BFCE2001DB18F /* fj1.jpg */,
+				AA138D9C1D6BFCE2001DB18F /* fj2.jpg */,
+				AA138D9D1D6BFCE2001DB18F /* fj3.jpg */,
+				AA138D9E1D6BFCE2001DB18F /* fj4.jpg */,
+				AA138D9F1D6BFCE2001DB18F /* fj5.jpg */,
+				AA138DA01D6BFCE2001DB18F /* fj6.jpg */,
+				AA138DA11D6BFCE2001DB18F /* fj7.jpg */,
+				AA138DA21D6BFCE2001DB18F /* fj8.jpg */,
+				AA138D7E1D6BD884001DB18F /* lunboViewControl.h */,
+				AA138D7F1D6BD884001DB18F /* LunboViewController.h */,
+				AA138D801D6BD884001DB18F /* LunboViewController.m */,
+				AA138D811D6BD884001DB18F /* LYCFlowLayout.h */,
+				AA138D821D6BD884001DB18F /* LYCFlowLayout.m */,
+				AA138D831D6BD884001DB18F /* LYCWaveView.h */,
+				AA138D841D6BD884001DB18F /* LYCWaveView.m */,
+				AA138D851D6BD884001DB18F /* MyImage.bundle */,
+				AA138D671D6BD856001DB18F /* lunBoControlTwo.h */,
+				AA138D691D6BD856001DB18F /* Info.plist */,
+			);
+			path = lunBoControlTwo;
+			sourceTree = "<group>";
+		};
+		AA138D721D6BD856001DB18F /* lunBoControlTwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA138D731D6BD856001DB18F /* lunBoControlTwoTests.m */,
+				AA138D751D6BD856001DB18F /* Info.plist */,
+			);
+			path = lunBoControlTwoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA138D611D6BD856001DB18F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA138D891D6BD884001DB18F /* LYCFlowLayout.h in Headers */,
+				AA138D871D6BD884001DB18F /* LunboViewController.h in Headers */,
+				AA138D861D6BD884001DB18F /* lunboViewControl.h in Headers */,
+				AA138D8B1D6BD884001DB18F /* LYCWaveView.h in Headers */,
+				AA138D681D6BD856001DB18F /* lunBoControlTwo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA138D631D6BD856001DB18F /* lunBoControlTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA138D781D6BD856001DB18F /* Build configuration list for PBXNativeTarget "lunBoControlTwo" */;
+			buildPhases = (
+				AA138D5F1D6BD856001DB18F /* Sources */,
+				AA138D601D6BD856001DB18F /* Frameworks */,
+				AA138D611D6BD856001DB18F /* Headers */,
+				AA138D621D6BD856001DB18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lunBoControlTwo;
+			productName = lunBoControlTwo;
+			productReference = AA138D641D6BD856001DB18F /* lunBoControlTwo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA138D6D1D6BD856001DB18F /* lunBoControlTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA138D7B1D6BD856001DB18F /* Build configuration list for PBXNativeTarget "lunBoControlTwoTests" */;
+			buildPhases = (
+				AA138D6A1D6BD856001DB18F /* Sources */,
+				AA138D6B1D6BD856001DB18F /* Frameworks */,
+				AA138D6C1D6BD856001DB18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA138D711D6BD856001DB18F /* PBXTargetDependency */,
+			);
+			name = lunBoControlTwoTests;
+			productName = lunBoControlTwoTests;
+			productReference = AA138D6E1D6BD856001DB18F /* lunBoControlTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA138D5B1D6BD856001DB18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zsc;
+				TargetAttributes = {
+					AA138D631D6BD856001DB18F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA138D6D1D6BD856001DB18F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA138D5E1D6BD856001DB18F /* Build configuration list for PBXProject "lunBoControlTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA138D5A1D6BD856001DB18F;
+			productRefGroup = AA138D651D6BD856001DB18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA138D631D6BD856001DB18F /* lunBoControlTwo */,
+				AA138D6D1D6BD856001DB18F /* lunBoControlTwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA138D621D6BD856001DB18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA138DA41D6BFCE2001DB18F /* fj2.jpg in Resources */,
+				AA138DA51D6BFCE2001DB18F /* fj3.jpg in Resources */,
+				AA138D8D1D6BD884001DB18F /* MyImage.bundle in Resources */,
+				AA138DAA1D6BFCE2001DB18F /* fj8.jpg in Resources */,
+				AA138DA81D6BFCE2001DB18F /* fj6.jpg in Resources */,
+				AA138DA71D6BFCE2001DB18F /* fj5.jpg in Resources */,
+				AA138DA91D6BFCE2001DB18F /* fj7.jpg in Resources */,
+				AA138DA31D6BFCE2001DB18F /* fj1.jpg in Resources */,
+				AA138DA61D6BFCE2001DB18F /* fj4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA138D6C1D6BD856001DB18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA138D5F1D6BD856001DB18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA138D8A1D6BD884001DB18F /* LYCFlowLayout.m in Sources */,
+				AA138D8C1D6BD884001DB18F /* LYCWaveView.m in Sources */,
+				AA138D881D6BD884001DB18F /* LunboViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA138D6A1D6BD856001DB18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA138D741D6BD856001DB18F /* lunBoControlTwoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA138D711D6BD856001DB18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA138D631D6BD856001DB18F /* lunBoControlTwo */;
+			targetProxy = AA138D701D6BD856001DB18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA138D761D6BD856001DB18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA138D771D6BD856001DB18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA138D791D6BD856001DB18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = lunBoControlTwo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.lunBoControlTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA138D7A1D6BD856001DB18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = lunBoControlTwo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.lunBoControlTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA138D7C1D6BD856001DB18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lunBoControlTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.lunBoControlTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA138D7D1D6BD856001DB18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lunBoControlTwoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.lunBoControlTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA138D5E1D6BD856001DB18F /* Build configuration list for PBXProject "lunBoControlTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA138D761D6BD856001DB18F /* Debug */,
+				AA138D771D6BD856001DB18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA138D781D6BD856001DB18F /* Build configuration list for PBXNativeTarget "lunBoControlTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA138D791D6BD856001DB18F /* Debug */,
+				AA138D7A1D6BD856001DB18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA138D7B1D6BD856001DB18F /* Build configuration list for PBXNativeTarget "lunBoControlTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA138D7C1D6BD856001DB18F /* Debug */,
+				AA138D7D1D6BD856001DB18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA138D5B1D6BD856001DB18F /* Project object */;
+}
