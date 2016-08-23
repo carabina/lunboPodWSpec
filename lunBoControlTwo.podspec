@@ -11,13 +11,14 @@ Pod::Spec.new do |s|
   s.name         = "lunboControlTwo"
   s.version      = "1.0.0"
   s.summary      = "A lunbo banner control for advertisement."
-
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  ="The lunbog is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
+  s.description  = <<-DESC
+The lunbog is a comt can be used in any iOS app. It also plays a little victory fanfare 
+DESC
 
   s.homepage     = "http://raywenderlich.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -84,7 +85,7 @@ Pod::Spec.new do |s|
   s.source_files  = "lunBoControlTwo", "lunBoControlTwo/**/*.{h,m}"
 
 
-  # s.public_header_files = "Classes/**/*.h"
+   s.public_header_files = "lunBoControlTwo/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
