@@ -47,14 +47,14 @@
     _collectionView.pagingEnabled=YES;
     _collectionView.backgroundColor=[UIColor clearColor];
     [self.view addSubview:_collectionView];
-    for (NSUInteger i=0; i<8; i++) {
-        NSString *bundlePath = [[NSBundle bundleForClass:[LunboViewController class]] pathForResource:@"MyImage.bundle" ofType:nil];
-        NSString*imageName=[NSString stringWithFormat:@"fj%ld.jpg",i+1];
-        NSBundle *myBundle= [NSBundle bundleWithPath:bundlePath];
-       NSString*localStr=[ myBundle pathForResource:imageName ofType:nil];
-        
-        UIImage*image=[UIImage imageWithContentsOfFile:localStr];
-        [self.imageArray addObject:image];
+    for (int i=0; i<8; i++) {
+//        NSString *bundlePath = [[NSBundle bundleForClass:[LunboViewController class]] pathForResource:@"MyImage.bundle" ofType:nil];
+//        NSString*imageName=[NSString stringWithFormat:@"fj%d.jpg",i+1];
+//        NSBundle *myBundle= [NSBundle bundleWithPath:bundlePath];
+//       NSString*localStr=[ myBundle pathForResource:imageName ofType:nil];
+//        
+//        UIImage*image=[UIImage imageWithContentsOfFile:localStr];
+//        [self.imageArray addObject:image];
         
     }
     LYCWaveView*waveView=[[LYCWaveView alloc]initWithFrame:CGRectMake(0, 224, SCREEN_WIDTH, 40) WithSpeed:2 WithWaveHeight:10 WithH:20];
