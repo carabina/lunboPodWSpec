@@ -1,10 +1,3 @@
-#
-#  Be sure to run `pod spec lint lunBoControlTwo.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
 
@@ -15,7 +8,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "lunBoControlTwo"
+  s.name         = "lunboControlTwo"
   s.version      = "1.0.0"
   s.summary      = "A lunbo banner control for advertisement."
 
@@ -62,7 +55,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
@@ -130,6 +123,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-
+  s.frameworks = 'UIKit'
+ 
 end

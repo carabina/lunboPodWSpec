@@ -47,9 +47,9 @@
     _collectionView.pagingEnabled=YES;
     _collectionView.backgroundColor=[UIColor clearColor];
     [self.view addSubview:_collectionView];
-    for (int i=0; i<8; i++) {
+    for (NSUInteger i=0; i<8; i++) {
         NSString *bundlePath = [[NSBundle bundleForClass:[LunboViewController class]] pathForResource:@"MyImage.bundle" ofType:nil];
-        NSString*imageName=[NSString stringWithFormat:@"fj%d.jpg",i+1];
+        NSString*imageName=[NSString stringWithFormat:@"fj%ld.jpg",i+1];
         NSBundle *myBundle= [NSBundle bundleWithPath:bundlePath];
        NSString*localStr=[ myBundle pathForResource:imageName ofType:nil];
         
